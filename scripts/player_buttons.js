@@ -39,7 +39,7 @@ class Player{
     play_pause(){
         if(this.isPlayed==false){
             this.play.src = "./img/pause.png";
-            this.audio_file.play;
+            this.audio_file.play();
             this.isPlayed=true;
         }
         else{

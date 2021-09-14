@@ -9,7 +9,7 @@ class Player{
 
         this.audios =[];
         this.audios[0] = "";
-        this.audios[1] = "../audio/music.mp3";
+        this.audios[1] = "./audio/music.mp3";
         this.audios[2] = "http://178.33.34.48:7764/;stream.mp3";
     
         this.names = [];
@@ -39,7 +39,7 @@ class Player{
     play_pause(){
         if(this.isPlayed==false){
             this.play.src = "./img/pause.png";
-            this.audio_file.play();
+            this.audio_file.play;
             this.isPlayed=true;
         }
         else{

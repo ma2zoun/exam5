@@ -9,7 +9,7 @@ class Player{
 
         this.audios =[];
         this.audios[0] = "http://yayin.firatfm.com:3065/;audio.mp3&bufferlength=2&volume=100&streamer=rtmp://wowza.firatfm.com:3270/shoutcast/firatfm&skin=https://www.firatfm.com/ekle/yanyesil/videosmartclassic.zip&autostart=true&stretching=fill";
-        this.audios[1] = "./audio/music.mp3";
+        this.audios[1] = "../audio/music.mp3";
         this.audios[2] = "http://178.33.34.48:7764/;stream.mp3";
     
         this.names = [];
